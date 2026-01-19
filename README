@@ -1,0 +1,135 @@
+# Portfolio Website - Raihan Uddin Marup
+
+A modern, responsive portfolio website showcasing skills, projects, and experience as an aspiring SEO Specialist and Web Developer.
+
+## Features
+
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Smooth Scrolling** - Elegant navigation between sections
+- **Interactive Elements** - Hover effects, animations, and dynamic content
+- **Contact Form** - Built-in form validation for user messages
+- **Social Media Integration** - Easy links to GitHub, Facebook, and LinkedIn
+- **Modern UI** - Clean gradient design with professional styling
+
+## Sections
+
+1. **Navigation** - Sticky header with smooth scroll links
+2. **Hero** - Eye-catching introduction with call-to-action buttons
+3. **About** - Personal introduction and educational background
+4. **Projects** - Showcase of completed work and achievements
+5. **Achievements & Blogs** - Highlights and hobbies
+6. **Publications & Contact** - Published work and contact form
+7. **Footer** - Copyright information
+
+## Project Structure
+
+```
+portfolio/
+│
+├── index.html          # Main HTML file
+├── css/
+│   └── style.css      # All styling
+├── js/
+│   └── script.js      # Interactive functionality
+├── images/
+│   ├── profile.jpeg   # Profile photo
+│   ├── blog-writing.jpg
+│   ├── seo-practice.jpg
+│   └── gaming.jpg
+└── README.md          # This file
+```
+
+## Setup & Installation
+
+1. Clone or download this repository
+2. Add your profile image to `images/profile.jpeg`
+3. Add hobby images to the `images/` folder
+4. Open `index.html` in your browser
+
+## Customization
+
+### Update Personal Information
+
+Edit `index.html` to change:
+- Name and title in the hero section
+- About me description
+- Education details
+- Project information
+- Publications
+- Contact email
+
+### Modify Colors
+
+The main color scheme uses blue gradients. To change, edit these CSS variables in `style.css`:
+- Primary: `#1e3c72`
+- Secondary: `#2a5298`
+- Accent: `#667eea`
+
+### Add Social Links
+
+Update the social media URLs in `script.js`:
+```javascript
+// Replace alert with actual URLs
+window.open('https://github.com/yourusername', '_blank');
+```
+
+### Enable CV Download
+
+1. Add your CV file to a `files/` folder
+2. Uncomment and update the path in `script.js`:
+```javascript
+window.open('files/your-cv.pdf', '_blank');
+```
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Grid, Flexbox, Gradients)
+- Vanilla JavaScript
+- SVG Icons
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Features Breakdown
+
+### JavaScript Functionality
+- Smooth scroll navigation
+- Active link highlighting on scroll
+- Form validation
+- Scroll-triggered animations
+- Hover effects
+- Alert notifications
+
+### Responsive Breakpoints
+- Desktop: 1200px+
+- Tablet: 768px - 968px
+- Mobile: < 768px
+
+## Future Enhancements
+
+- [ ] Add actual CV download functionality
+- [ ] Integrate with a backend for contact form
+- [ ] Add more project examples
+- [ ] Include a blog section with CMS
+- [ ] Add dark mode toggle
+- [ ] Implement loading animations
+
+## Contact
+
+For questions or collaboration:
+- Email: raihan@example.com
+- GitHub: [Add your link]
+- LinkedIn: [Add your link]
+
+## License
+
+© 2024 Raihan Uddin Marup. All rights reserved.
+
+---
+
+**Note:** Remember to replace placeholder images and links with your actual content before deploying!
